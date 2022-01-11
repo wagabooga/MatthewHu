@@ -9,26 +9,26 @@ const Navbar = () => {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to='/'>DigNShare</NavLogo>
+          <NavLogo to='/'>Matthew Hu</NavLogo>
           <MobileIcon>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to="about">About</NavLinks>
+              <NavLinks to="about">01. About</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="discover">Discover</NavLinks>
+              <NavLinks to="projects">02. Projects</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="services">Services</NavLinks>
+              <NavLinks to="work">03. Work</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to="signup">Sign Up</NavLinks>
+              <NavLinks to="signup">04. Contact</NavLinks>
             </NavItem>
           </NavMenu>
           <NavBtn>
-            <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            <NavBtnLink to="/signin">sign in</NavBtnLink>
           </NavBtn>
         </NavbarContainer>
       </Nav>
