@@ -33,7 +33,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: 'work',
+  id: 'contact',
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -49,19 +49,3 @@ export const homeObjThree = {
   darkText: false
 };
 
-export const homeObjFour = {
-  id: 'projects',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'Full Stack Web Developer',
-  headline: 'Info asdasdasdasdasdasda asd asd asd asd asd asd ',
-  description: ' asd asd asd asd asd asdasdasdas asd asd ',
-  buttonLabel: 'Get started',
-  imgStart: true,
-  img: require('../../images/svg-2.svg').default,
-  alt: 'Car',
-  dark: false,
-  primary: false,
-  darkText: true
-};
