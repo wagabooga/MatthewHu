@@ -1,5 +1,20 @@
 import React from 'react'
-import { FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink } from './FooterElements'
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { 
+  FooterContainer, 
+  FooterWrap, 
+  FooterLinksContainer, 
+  FooterLinksWrapper, 
+  FooterLinkItems, 
+  FooterLinkTitle, 
+  FooterLink, 
+  SocialMedia, 
+  SocialMediaWrap, 
+  SocialLogo, 
+  WebsiteRights, 
+  SocialIcons, 
+  SocialIconLink } from './FooterElements'
+
 const Footer = () => {
   return (
     <FooterContainer>
@@ -15,16 +30,26 @@ const Footer = () => {
                 <FooterLink to="/signin">Terms of Service</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
-          <FooterLinksWrapper>
-            <FooterLinkItems>
-              <FooterLinkTitle>Social Media</FooterLinkTitle>
-                <FooterLink to="/signin">LinkedIn</FooterLink>
-                <FooterLink to="/signin">Github</FooterLink>
-                <FooterLink to="/signin">Youtube</FooterLink>
-                <FooterLink to="/signin">Twitter</FooterLink>
-            </FooterLinkItems>
-          </FooterLinksWrapper>
         </FooterLinksContainer>
+        <SocialMedia>
+          <SocialMediaWrap>
+            <SocialLogo to='/'>
+              Matthew Hu
+            </SocialLogo>
+            <WebsiteRights>Matthew Hu © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+            <SocialIcons>
+              <SocialIconLink href="//https://github.com/wagabooga" target="_blank" aria-label="Github">
+                <FaGithub />
+              </SocialIconLink>
+              <SocialIconLink href="//https://www.linkedin.com/in/wagabooga/" target="_blank" aria-label="LinkedIn">
+                <FaLinkedin />
+              </SocialIconLink>
+              <SocialIconLink href="//www.twitter.com/wagabooga" target="_blank" aria-label="Twitter">
+                <FaTwitter />
+              </SocialIconLink>
+            </SocialIcons>
+          </SocialMediaWrap>
+        </SocialMedia>
       </FooterWrap>
     </FooterContainer>
   )
