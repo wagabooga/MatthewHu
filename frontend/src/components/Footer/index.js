@@ -29,10 +29,6 @@ const Footer = () => {
             <FooterLinkItems>
               <FooterLinkTitle>Contact Me</FooterLinkTitle>
                 <FooterLink to="/signin">Email</FooterLink>
-                <FooterLink to="/signin">Testimonials</FooterLink>
-                <FooterLink to="/signin">Careers</FooterLink>
-                <FooterLink to="/signin">Investors</FooterLink>
-                <FooterLink to="/signin">Terms of Service</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>

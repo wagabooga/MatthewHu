@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import Video from '../../videos/video.mp4'
 import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowRight} from './HeroElements';
-import { Button } from '../ButtonElements';
+
 const HeroSection = () => {
   const [hover, setHover] = useState(false)
 
@@ -15,19 +15,15 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>
-          Matthew Hu
-        </HeroH1>
-        <HeroH1>
-          I build things for the web
+          Matthew Who?
         </HeroH1>
         <HeroP>
-        Full-Stack Developer with experience in designing, creating, and launching web applications. I am self motivated with both academic and real-world experience for developing alongside a team
+        Welcome! I enjoy designing creating, and launching my own personal web projects.
+        I started coding in 2020 by creating text-based games in Python, and then moved on to Lighthouse Labs Full-Stack development bootcamp where I would eat, sleep, and breathe code.
         </HeroP>
-        <HeroBtnWrapper>
-          <Button to="signup" onMouseEnter={onHover} onMouseLeave={onHover}>
-            Get Started { hover ? <ArrowForward /> : <ArrowRight />}
-          </Button>
-        </HeroBtnWrapper>
+        <HeroP>
+        These days, I enjoy following my ABC's (always be coding) and am seeking employment as a developer.
+        </HeroP>
       </HeroContent>
     </HeroContainer>
   )
