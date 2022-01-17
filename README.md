@@ -22,3 +22,12 @@ intro, I want the animated background to change to a color scheme
 
 footer -> github link
 
+
+
+->> Final Stretch
+
+(Maybe?) Fix Nav bar to change color properly over different sections
+
+Create each section to be size of screen (Hero)
+
+About Me -> Replace image

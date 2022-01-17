@@ -6,23 +6,23 @@ import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesI
 
 const Services = () => {
   return (
-    <ServicesContainer id="work">
-      <ServicesH1> Our Services </ServicesH1>
+    <ServicesContainer id="projects">
+      <ServicesH1> My Projects </ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1}/>
-          <ServicesH2>Lorem Ipsum</ServicesH2>
-          <ServicesP>Lorem Ipsum Asd Greek Something Idk but Temp Text!!1</ServicesP>
+          <ServicesH2>Bucket-List-Project</ServicesH2>
+          <ServicesP>Currently a work in progress! Come back soon!</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon2}/>
-          <ServicesH2>Lorem Ipsum2</ServicesH2>
-          <ServicesP>Lorem Ipsum Asd Greek Something Idk but Temp Text!!2</ServicesP>
+          <ServicesH2>Scheduler</ServicesH2>
+          <ServicesP>Simple CRUD app where you can schedule interviews</ServicesP>
         </ServicesCard>
         <ServicesCard>
           <ServicesIcon src={Icon3}/>
-          <ServicesH2>Lorem Ipsum3</ServicesH2>
-          <ServicesP>Lorem Ipsum Asd Greek Something Idk but Temp Text!!3</ServicesP>
+          <ServicesH2>Spotter</ServicesH2>
+          <ServicesP>Social-media app that combines Twitter and Spotify</ServicesP>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
