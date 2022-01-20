@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "homepage": "http://{wagabooga}.github.io/{MatthewHu}",
+    "gh-pages": "^3.2.3"
+  }
+}
