@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "homepage": "http://{wagabooga}.github.io/{MatthewHu}",
+    "homepage": "./frontend/src/index.js",
     "gh-pages": "^3.2.3"
   }
 }
