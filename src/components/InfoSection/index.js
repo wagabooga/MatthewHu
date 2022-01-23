@@ -18,7 +18,7 @@ const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkT
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} onClick={(e) => {window.location = "mailto:no-reply@example.com"; e.preventDefault();}}/>
+                <Img src={img} alt={alt} onClick={(e) => {window.location = "mailto:mattyhutwo@gmail.com"; e.preventDefault();}}/>
               </ImgWrap>
             </Column2>
           </InfoRow>
