@@ -5,7 +5,7 @@ https://www.matthewhu.com
 still todos:
 - get better projects (launch spotify, maybe have 2 sections for projects)
 - add picture of myself
--
+
 
 
 What I would like to add on version 2.0:
