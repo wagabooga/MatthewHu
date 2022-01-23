@@ -1,33 +1,15 @@
 # website
-todo: 
-fix navbar indicatior
-add onhover color change to navbar
-change scrollNAv
+https://www.matthewhu.com
 
 
-
--> Matthew hu i build things for web area:                                                                        
-intro, I want the animated background to change to a color scheme
-
--> after first inital scroll, have About Me ->> 2 column layout
-      |
-      |
-      ->>>> want this effect to showcase into Work History
+still todos:
+- get better projects (launch spotify, maybe have 2 sections for projects)
+- add picture of myself
+-
 
 
--> some thins Ive built, keep the 3 thing but size up {BONUS: have extra ones pop up as you scroll}
-
--> outro section, with email link and icons
-
-
-footer -> github link
-
-
-
-->> Final Stretch
-
-(Maybe?) Fix Nav bar to change color properly over different sections
-
-Create each section to be size of screen (Hero)
-
-About Me -> Replace image
+What I would like to add on version 2.0:
+- Loading effect, to indicate that the website is loading
+- instead of up + down and sidebar left and right
+- footer is just link to portfolio github
+- When scrolling down, navbar hides to top. scroll up reappears
