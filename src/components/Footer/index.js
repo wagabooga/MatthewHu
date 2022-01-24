@@ -37,7 +37,7 @@ const Footer = () => {
             <SocialLogo to='/' onClick={toggleHome}>
               Matthew Hu
             </SocialLogo>
-            <WebsiteRights>Matthew Hu © {new Date().getFullYear()} All rights reserved</WebsiteRights>
+            <WebsiteRights>Matthew Hu © {new Date().getFullYear()}</WebsiteRights>
             <SocialIcons>
               <SocialIconLink href="//www.github.com/wagabooga" target="_blank" aria-label="Github">
                 <FaGithub />
@@ -45,9 +45,9 @@ const Footer = () => {
               <SocialIconLink href="//www.linkedin.com/in/wagabooga/" target="_blank" aria-label="LinkedIn">
                 <FaLinkedin />
               </SocialIconLink>
-              {/* <SocialIconLink href="//www.twitter.com/wagabooga" target="_blank" aria-label="Twitter">
+              <SocialIconLink href="//www.twitter.com/wagabooga" target="_blank" aria-label="Twitter">
                 <FaTwitter />
-              </SocialIconLink> */}
+              </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>

@@ -1,5 +1,5 @@
 # website
-https://www.matthewhu.com
+https://matthewhu.com/
 
 
 still todos:
