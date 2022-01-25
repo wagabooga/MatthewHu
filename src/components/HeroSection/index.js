@@ -19,10 +19,10 @@ const HeroSection = () => {
         </HeroH1>
         <HeroP>
         Welcome! I enjoy designing creating, and launching my own personal web projects.
-        I started coding in 2020 by creating text-based games in Python, and then moved on to Lighthouse Labs Full-Stack development bootcamp where I would eat, sleep, and breathe code.
+        I began coding by creating text-based games in Python, but now mostly focus on building web ideas to life.
         </HeroP>
         <HeroP>
-        These days, I enjoy following my ABC's (always be coding) and am seeking employment as a developer.
+        I also have been following my ABC's (always be coding) and am seeking full-time employment as a developer.
         </HeroP>
       </HeroContent>
     </HeroContainer>
