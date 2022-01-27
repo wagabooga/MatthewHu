@@ -17,7 +17,7 @@ const Services = () => {
         <ServicesCard onClick={(e) => { e.preventDefault(); window.location = "https://hardcore-wilson-719e0a.netlify.app/";}} >
           <ServicesIcon src={SchedulerImg}/>
           <ServicesH2>Scheduler</ServicesH2>
-          <ServicesP>Simple CRUD app where you can schedule interviews</ServicesP>
+          <ServicesP>Simple CRUD app where you can schedule interviews. (Remote database via Heroku! Wait 30s and refresh if blank)</ServicesP>
         </ServicesCard>
         <ServicesCard onClick={(e) => { e.preventDefault(); window.location = "https://github.com/wagabooga/Spotter"; e.preventDefault();}} >
           <ServicesIcon src={SpotterImg}/>
