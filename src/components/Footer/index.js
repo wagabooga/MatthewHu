@@ -45,9 +45,7 @@ const Footer = () => {
               <SocialIconLink href="//www.linkedin.com/in/wagabooga/" target="_blank" aria-label="LinkedIn">
                 <FaLinkedin />
               </SocialIconLink>
-              <SocialIconLink href="//www.twitter.com/wagabooga" target="_blank" aria-label="Twitter">
-                <FaTwitter />
-              </SocialIconLink>
+  
             </SocialIcons>
           </SocialMediaWrap>
         </SocialMedia>

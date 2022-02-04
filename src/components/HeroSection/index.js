@@ -18,11 +18,7 @@ const HeroSection = () => {
           Matthew Who?
         </HeroH1>
         <HeroP>
-        Welcome! I enjoy designing creating, and launching my own personal web projects.
-        I began coding by creating text-based games in Python, but now mostly focus on building web ideas to life.
-        </HeroP>
-        <HeroP>
-        I also have been following my ABC's (always be coding) and am seeking full-time employment as a developer.
+        I'm a Full-Stack Web Developer and self taught Graphic Designer. I enjoy expressing my creativity through building web applications. 
         </HeroP>
       </HeroContent>
     </HeroContainer>

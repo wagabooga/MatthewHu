@@ -1,5 +1,5 @@
 import React from 'react'
-import BlpImg from '../../images/BLP-main.jpeg'
+import onlinespotifyclientImg from '../../images/onlinespotifyclient.png'
 import SpotterImg from '../../images/Spotter-mobile.png'
 import SchedulerImg from '../../images/Scheduler-main.png'
 import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesElements'
@@ -9,10 +9,10 @@ const Services = () => {
     <ServicesContainer id="projects">
       <ServicesH1> My Projects </ServicesH1>
       <ServicesWrapper>
-        <ServicesCard onClick={(e) => { e.preventDefault(); window.location = "https://github.com/wagabooga/Bucket-List-Project";}} >
-          <ServicesIcon src={BlpImg}  />
-          <ServicesH2>Bucket-List-Project</ServicesH2>
-          <ServicesP>Currently a work in progress! Come back soon!</ServicesP>
+        <ServicesCard onClick={(e) => { e.preventDefault(); window.location = "https://onlinespotifyclient.vercel.app/";}} >
+          <ServicesIcon src={onlinespotifyclientImg}  />
+          <ServicesH2>Online-spotify-client</ServicesH2>
+          <ServicesP>Similar to Spotify open, Log in with spotify and start browsing and playing your Spotify playlists!</ServicesP>
         </ServicesCard>
         <ServicesCard onClick={(e) => { e.preventDefault(); window.location = "https://hardcore-wilson-719e0a.netlify.app/";}} >
           <ServicesIcon src={SchedulerImg}/>
