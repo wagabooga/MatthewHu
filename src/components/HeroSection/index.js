@@ -15,10 +15,10 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>
-          Matthew Who?
+          Welcome
         </HeroH1>
         <HeroP>
-        I'm a Full-Stack Web Developer and self taught Graphic Designer. I enjoy expressing my creativity through building web applications. 
+          I am currently working on a more-polished version of this website. Check back soon for Matthew Hu 2.0!
         </HeroP>
       </HeroContent>
     </HeroContainer>
