@@ -14,7 +14,7 @@ import {
   WebsiteRights, 
   SocialIcons, 
   SocialIconLink } from './FooterElements'
-  import { animateScroll as scroll} from 'react-scroll'
+  import { animateScroll as scroll} from 'react-scroll/modules'
 const Footer = () => {
 
   const toggleHome = () => {

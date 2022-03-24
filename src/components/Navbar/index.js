@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { FaBars } from 'react-icons/fa' // check react-icons.github.io for more docs
 import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, NavBtn, NavBtnLink} from './NavbarElements'
 import { IconContext } from 'react-icons/lib'
-import { animateScroll as scroll} from 'react-scroll'
+import { animateScroll as scroll} from 'react-scroll/modules'
 
 
 const Navbar = ({ toggle }) => {

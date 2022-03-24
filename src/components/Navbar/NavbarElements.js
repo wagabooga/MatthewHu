@@ -1,6 +1,6 @@
 import styled from "styled-components"
 import {Link as LinkRouter } from 'react-router-dom'
-import {Link as LinkScroll } from 'react-scroll'
+import {Link as LinkScroll } from 'react-scroll/modules'
 
 export const Nav = styled.nav`
   background: ${({scrollNav}) => (scrollNav ? '#a6b37f' : '#a6b37f')}
